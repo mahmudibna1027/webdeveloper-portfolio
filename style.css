@@ -1,0 +1,41 @@
+/* coomon shared style*/
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.text-primary{
+color: #FD6E0A;
+}
+/* nav Related styles*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+font-size: 20px;
+color: white;
+font-weight: 700;
+padding: 15px 35px ;
+
+}
+.nav-title{
+color: #181818;
+font-size: 45px;
+font-weight: 900;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
