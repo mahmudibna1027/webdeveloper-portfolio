@@ -173,7 +173,24 @@ font-weight: 700;
 /* footer style */
 footer{
     display: flex;
+    gap: 100px;
     background: #faebe0;
     padding: 130px 200px;
     margin-top: 100px;
+}
+.footer-column{
+ width: 50%;   
+}
+.contract input[type="text"], input[type="email"], textarea{
+display: block;
+margin-bottom: 25px;
+padding:18px 35px ;
+color: #474747;
+border-radius: 5px;
+background: #FFF;
+border: 0;
+width: 100%;
+}
+.social-links a{
+margin-right: 25px;
 }
