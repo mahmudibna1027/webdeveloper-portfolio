@@ -85,7 +85,10 @@ margin-bottom: 20px;
     font-weight: 900;
 }
 /*main section styles*/
-
+main{
+   max-width: 1140px; 
+   margin: 0 auto;
+}
 /*about section styles*/
 .about{
   padding: 130px;  
@@ -94,9 +97,22 @@ background: #FFF8F3;
 margin: 130px 0px;
 }
 .sec-desc{
-    color: #757575;
+    color: #060606;
 text-align: center;
 font-size: 18px;
 font-style: normal;
 font-weight: 900;
+}
+.about-info-container{
+display: flex;
+justify-content: space-around;
+}
+.about-info{
+   text-align: center; 
+   font-size: 15px;
+font-weight: 700;
+color: #a42929;
+}
+#what-i-des{
+  padding: 30px 150px;  
 }
